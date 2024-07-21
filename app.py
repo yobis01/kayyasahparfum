@@ -8,10 +8,10 @@ def create_connection():
     connection = None
     try:
         connection = mysql.connector.connect(
-            host='localhost',  # Ganti dengan host MySQL Anda
-            database='yoga',  # Ganti dengan nama database Anda
-            user='root',  # Ganti dengan username MySQL Anda
-            password=''  # Ganti dengan password MySQL Anda
+            host='sql12.freemysqlhosting.net',  # Ganti dengan host MySQL Anda
+            database='sql12721255',  # Ganti dengan nama database Anda
+            user='sql12721255',  # Ganti dengan username MySQL Anda
+            password='tXZ7VamWty'  # Ganti dengan password MySQL Anda
         )
     except Error as e:
         st.error(f"The error '{e}' occurred")
